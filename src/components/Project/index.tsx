@@ -13,6 +13,7 @@ import { FaGithub, FaShare } from "react-icons/fa";
 import { userData } from "@/utils/userData";
 
 interface ReposType {
+  html_url: string;
   id: number;
   name: string;
   language: string;
